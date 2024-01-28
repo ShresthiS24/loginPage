@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+
+
+.outerbox{
+ width: 100vw;
+ height: 100vh;
+ background: linear-gradient(to top left, #95bfff, #ffa9ec);
+}
+.Innerbox{
+    width:400px;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background-color: white;
+    border-radius: 8px;
+}
+h1{
+    font-size: 2.5rem;
+    
+}
+.SignUp-body{
+    margin: 20px 0px;
+}
+.SignUp-body p{
+    margin: 10px 0px;
+}
+.SignUp-body p label{
+    display: block;
+}
+.SignUp-body p input{
+    width: 100%;
+    padding: 10px;
+    border:2px solid rgb(245, 237, 224);
+    border-radius: 4px;
+}
